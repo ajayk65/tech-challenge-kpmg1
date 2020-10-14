@@ -20,4 +20,5 @@ Below is the approach or factors considered while creating this application.
 
 
 **Verification :-**<br />
+Make sure all resources are reated in AWS console<br />
 After app gets created sucessfully grab the DNS of the ELB from AWS console and verify html page is coming.
