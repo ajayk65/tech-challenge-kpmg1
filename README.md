@@ -16,7 +16,7 @@ After sucessfully producing below steps one can see below setup.
 **Steps to reproduce**
 
 **1.** Refer this another github repo to [initialize the setup](https://github.com/ajayk65/initialize-setup)<br />
-**2.** Clone this repository.
+**2.** Clone this repository.<br />
 **3.** Execute below sets of commands from repository cloned location:-<br />
 
 **i)** export env=dev (or test/prod)<br />
