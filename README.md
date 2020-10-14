@@ -8,7 +8,7 @@ Below is the approach or factors considered while creating this application.
 
 **Steps to reproduce**
 
-[Refer this another github repo to initialize the setup](https://github.com/hchiao/three-tier-init)
+[Refer this another github repo to initialize the setup](https://github.com/ajayk65/initialize-setup)
 
 
 
