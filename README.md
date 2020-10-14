@@ -1,5 +1,4 @@
 This is terraform project to create three tier setup of an application in AWS cloud.
-
 Below is the approach or factors considered while creating this application.
 
 **1. High Availalibity** :- Two availability zones eu-west-1b and eu-west-1c have been used within AWS region :- eu-west-1.
