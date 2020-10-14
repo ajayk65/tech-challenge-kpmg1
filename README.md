@@ -5,3 +5,7 @@ Below is the approach or factors considered while creating this application.
 **2. Scalability** :- Project is using ASG (Auto Scaling Group) feature of EC2.<br />
 **3. Load Balancing** :- Elastic Load Balancer has been used for catering load among EC2 instances.<br />
 **4. Security** :- Security groups has been used to allow/deny traffic from internet to EC2.<br />
+
+**Steps to reproduce**
+
+[Refer this another github repo to initialize the setup](https://github.com/hchiao/three-tier-init)
