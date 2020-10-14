@@ -6,6 +6,13 @@ Below is the approach or factors considered while creating this application.
 **c. Load Balancing** :- Elastic Load Balancer has been used for catering load among EC2 instances.<br />
 **b. Security** :- Security groups has been used to allow/deny traffic from internet to EC2,VPC,ELB.<br />
 
+After sucessfully producing below steps one can see below setup.
+
+1. ELB,ASG,EC2 :- **Web Layer**<\br>
+2. VPC,two availability zones,4 Public subnets(for EC2,ELB,ASG), 2 private subnets(for DB),NAT,IGW **Network Layer**<\br> 
+3. Amazon RDS consisting of postgres : - **DB Layer**<\br>
+
+
 **Steps to reproduce**
 
 **1.** Refer this another github repo to [initialize the setup](https://github.com/ajayk65/initialize-setup)<br />
