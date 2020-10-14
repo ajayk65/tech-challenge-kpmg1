@@ -8,9 +8,16 @@ Below is the approach or factors considered while creating this application.
 
 **Steps to reproduce**
 
-[Refer this another github repo to initialize the setup](https://github.com/ajayk65/initialize-setup)
+**1.** Refer this another github repo to [initialize the setup](https://github.com/ajayk65/initialize-setup)<br />
+**2.** Clone this repository.
+
+**3.** Execute below sets of commands from repository cloned location:-<br />
+
+**i)** export env=dev (or test/prod)<br />
+**ii)** terraform init -backend-config=config/backend-${env}.conf -backend=true<br />
+**iii)** terraform apply -var-file=config/${env}.tfvars -var password=<db password> -lock=true<br />
 
 
 
-**Verification :-** 
+**Verification :-**<br />
 After app gets created sucessfully grab the DNS of the ELB from AWS console and verify html page is coming.
